@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section1{
+    display: flex;
+    background-color: #d8d8ff;
+    padding: 5%;
+    gap: 15rem;
+    width: 90%;
+    max-width: 90%;
+}
+.main1{
+    width: 50%;
+    max-width: 50%;
+}
+.main1 h1{
+    font-family: 'snell roundhand,cursive';
+    font-size: 18rem;
+    color: blue;
+}
+.main1 span{
+    font-family: arial;
+    font-size: 3rem;
+    color: black;
+}
+.main1{
+    width: 50%;
+    max-width: 50%;
+}
+.main2 {
+    width: 50%;
+    max-width: 50%;
+}
+.main2 img{
+    border-radius: 60%;
+    width: 100%;
+    max-width: 100%;
+}
+.section{
+    margin-top: 5rem;
+    text-align: center;
+}
+.section2{
+    position: absolute;
+    margin-top: -3rem;
+    width: 25%;
+    text-align: center;
+}
+.section2 button{
+    padding: 9px;
+    border-radius: 22px;
+    width: 12rem;
+    max-width: 12rem;
+    background-color: blue;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+}
+.section3{
+    display: flex;
+    align-items: center;
+}
+.main3{
+    width: 50%;
+    max-width: 50%;
+    padding: 10%;
+}
+.main31{
+    width: 50%;
+    max-width: 50%;
+}
+.main3 img{
+    border-radius: 50%;
+    width: 100%;
+    max-width: 30rem;
+    height: 30rem;
+    margin-left: 5rem;
+}
+.main31 h1{
+    font-size: 6rem;
+    font-family: 'snell roundhand,cursive';
+}
+.main31 button{
+    padding: 8px;
+    background-color: red;
+    border-radius: 30px;
+    margin: 20px 0px;
+    border: none;
+}
+.main41{
+    display: flex;
+    padding: 100px;
+    gap: 10rem;
+    background-color: blue;
+    line-height: 0.9;
+}
+.main41 img{
+    width: 100%;
+    max-width: 100%;
+    height: 50%;
+    border-radius: 50%;
+}
+.main41 h2{
+    text-align: center;
+}
+.main41 p{
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    html{
+        font-size: 62.5%;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+        background-color: #d8d8ff;
+        padding: 50px;
+        gap: 5rem;
+    }
+    .main1 h1{
+        font-family: 'snell roundhand,cursive';
+        font-size: 12rem;
+        color: blue;
+}
+.section2{
+    position: absolute;
+    margin-top: -5rem;
+    width: 50%;
+    padding: 5%;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+.main3{
+    width: 100%;
+    max-width: 100%;
+    padding: 5%;
+}
+.main41{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    padding: 10%;
+    gap: 10rem;
+    background-color: blue;
+    line-height: 0.9;
+}
+.main41 p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+}
